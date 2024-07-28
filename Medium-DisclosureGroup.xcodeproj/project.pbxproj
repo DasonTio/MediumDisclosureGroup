@@ -14,6 +14,8 @@
 		EFFF072E2C5388500019685C /* Medium_DisclosureGroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF072D2C5388500019685C /* Medium_DisclosureGroupTests.swift */; };
 		EFFF07382C5388500019685C /* Medium_DisclosureGroupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF07372C5388500019685C /* Medium_DisclosureGroupUITests.swift */; };
 		EFFF073A2C5388500019685C /* Medium_DisclosureGroupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF07392C5388500019685C /* Medium_DisclosureGroupUITestsLaunchTests.swift */; };
+		EFFF07482C538A540019685C /* FolderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF07472C538A540019685C /* FolderModel.swift */; };
+		EFFF074B2C538AE30019685C /* FolderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF074A2C538AE30019685C /* FolderCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		EFFF07332C5388500019685C /* Medium-DisclosureGroupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medium-DisclosureGroupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFF07372C5388500019685C /* Medium_DisclosureGroupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medium_DisclosureGroupUITests.swift; sourceTree = "<group>"; };
 		EFFF07392C5388500019685C /* Medium_DisclosureGroupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medium_DisclosureGroupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFFF07472C538A540019685C /* FolderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderModel.swift; sourceTree = "<group>"; };
+		EFFF074A2C538AE30019685C /* FolderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		EFFF071B2C53884E0019685C /* Medium-DisclosureGroup */ = {
 			isa = PBXGroup;
 			children = (
+				EFFF07492C538AD40019685C /* Component */,
+				EFFF07462C538A490019685C /* Model */,
 				EFFF071C2C53884E0019685C /* Medium_DisclosureGroupApp.swift */,
 				EFFF071E2C53884E0019685C /* ContentView.swift */,
 				EFFF07202C53884F0019685C /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				EFFF07392C5388500019685C /* Medium_DisclosureGroupUITestsLaunchTests.swift */,
 			);
 			path = "Medium-DisclosureGroupUITests";
+			sourceTree = "<group>";
+		};
+		EFFF07462C538A490019685C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF07472C538A540019685C /* FolderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFFF07492C538AD40019685C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF074A2C538AE30019685C /* FolderCard.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFFF071F2C53884E0019685C /* ContentView.swift in Sources */,
+				EFFF07482C538A540019685C /* FolderModel.swift in Sources */,
 				EFFF071D2C53884E0019685C /* Medium_DisclosureGroupApp.swift in Sources */,
+				EFFF074B2C538AE30019685C /* FolderCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
